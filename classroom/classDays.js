@@ -8,7 +8,7 @@ let firstDay = createClassroom(studentsInfected);
 let nextDay = _.cloneDeep(firstDay)
 var interval = setInterval(actualization,3000);
 
-function actualization(students){
+function actualization(){
     daysPassing++;
     console.log("Day "+ daysPassing);
 
